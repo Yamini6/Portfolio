@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import "./Portfolio.scss"
 import company from "../assets/img/company.png"
 import round from "../assets/img/round_final_2.png"
-import projectImg from "../assets/img/weather.png"
+import projectImg from "../assets/img/spotify.jpg"
 import projectImg2 from "../assets/img/iptracker3.jpg"
 import projectImg3 from "../assets/img/rock_game.png"
 import projectUnderline from "../assets/img/project_underline.png"
@@ -161,13 +161,13 @@ class Portfolio extends Component {
        <img className='underline' src={projectUnderline}  ref={this.ProjectRef}/>
        </div>
        <div className='project-detail-container'>
-        <div className='project-detail'>
+       <a href="https://master--spotifyclone22.netlify.app/"> <div className='project-detail'>
           <img className='project-img'  src={projectImg}/>
-          <p className='project-title'> weather app</p>
+          <p className='project-title'> spotify clone app</p>
            <hr className='border'/>
            <p className='project-explain'>
-           A weather app is a web-based application that provides users with real-time information about weather conditions. It typically features updates on temperature, humidity, wind speed, precipitation, and forecasts for the coming days.</p>
-        </div>
+          It's a Spotify clone that leverages the Spotify API to replicate key features. It uses Spotify's API for authentication, song playback, and fetching song lists. To use the app, you need a Spotify Developer account and your own client ID from the Spotify Developer website..</p>
+        </div></a>
        <a href="https://sunny-chaja-eeb173.netlify.app/"> <div className='project-detail'>
           <img className='project-img'  src={projectImg3}/>
           <p className='project-title'> rock-paper-scissors game</p>
